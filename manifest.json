@@ -1,0 +1,11 @@
+{
+  "versao": "1.5.20",
+  "canal": "stable",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.20/CentralAutomacoes_v1.exe",
+  "sha256": "d1f5bfb234dd65a83cabe1278dc9f3330bd59fb492b7ff2dbddc42964a6e674e",
+  "tamanho": 110825503,
+  "publicado_em": "2026-08-19T21:53:06Z",
+  "notas": "1.5.20 — boletos da Procacao e da RG Limpeza deixam de ir para quarentena (o grupo tem 3 CNPJs, a Central enxergava 1). NF grava e le a mesma pasta por CNPJ. Escolha de CNPJ passa a sobreviver ao fechamento. Primeira versao com o canal de atualizacao automatica no ar.",
+  "min_versao_suportada": "0.0.0",
+  "rollout_percent": 100
+}
