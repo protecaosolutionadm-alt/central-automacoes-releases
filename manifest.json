@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.20",
+  "versao": "1.5.21",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.20/CentralAutomacoes_v1.exe",
-  "sha256": "d1f5bfb234dd65a83cabe1278dc9f3330bd59fb492b7ff2dbddc42964a6e674e",
-  "tamanho": 110825503,
-  "publicado_em": "2026-08-19T21:53:06Z",
-  "notas": "1.5.20 — boletos da Procacao e da RG Limpeza deixam de ir para quarentena (o grupo tem 3 CNPJs, a Central enxergava 1). NF grava e le a mesma pasta por CNPJ. Escolha de CNPJ passa a sobreviver ao fechamento. Primeira versao com o canal de atualizacao automatica no ar.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.21/CentralAutomacoes_v1.exe",
+  "sha256": "efe8bc6cabefe119199529ee30f1cc4414f88ef580c5701dcfdde58f794ad5f0",
+  "tamanho": 111488761,
+  "publicado_em": "2026-08-20T14:49:57Z",
+  "notas": "1.5.21 - NF e boleto voltam a gravar em NOTAS FISCAIS\\08 AGO 26 (layout PLANO por competencia, agora dado por empresa e valendo para os dois). Colisao de nome com dois emitentes deixa de sobrescrever documento fiscal: hash diferente aborta o lote antes de mover. O log de OTP para de morrer dentro do pacote temporario do .exe.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
