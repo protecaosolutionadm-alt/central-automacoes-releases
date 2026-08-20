@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.22",
+  "versao": "1.5.23",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.22/CentralAutomacoes_v1.exe",
-  "sha256": "5687699b41604ce1376052f3a7469b9171c031c138d2a4cbccbff029f7c8ea72",
-  "tamanho": 111513739,
-  "publicado_em": "2026-08-20T16:35:52Z",
-  "notas": "1.5.22 - E' esta versao que valida os boletos. SN - 4 reconhecido; a paginacao le o botao desabilitado em vez de adivinhar onde a lista acaba; a renomeacao deixa de depender do pulo por duplicidade; e duplicidade passa a ser por emitente+numero, entao dois CNPJs do grupo podem emitir a nota 4 no mesmo mes sem uma apagar a outra. A letra da NF passa a sair da discriminacao do servico, nao da legenda do codigo municipal.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.23/CentralAutomacoes_v1.exe",
+  "sha256": "c6266a944f20f7e106d8cd4da206da77cb0174e05970b8a4750df2d5fba80737",
+  "tamanho": 111405802,
+  "publicado_em": "2026-08-20T20:02:05Z",
+  "notas": "1.5.23 - a causa raiz do RPA de boletos. A seta de paginacao sem escopo casava com a seta do filtro de periodo e AVANCAVA O MES: o robo lia setembro achando que era a pagina 2 de agosto. Agora o seletor e' ancorado na regiao de paginacao, o rotulo do periodo e' reconferido depois de qualquer clique, e grid sem paginacao passa a ser pagina unica (a Procacao, com 3 vendas, volta a rodar). Junto: motor unico de nomenclatura (o anexo do e-mail e o arquivo na pasta deixam de ter nomes diferentes), a data de emissao que faz o {data} do template resolver, e o cadastro vazio deixa de contar como cadastro.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
