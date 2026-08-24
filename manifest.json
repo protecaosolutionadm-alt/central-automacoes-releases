@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.23",
+  "versao": "1.5.25",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.23/CentralAutomacoes_v1.exe",
-  "sha256": "c6266a944f20f7e106d8cd4da206da77cb0174e05970b8a4750df2d5fba80737",
-  "tamanho": 111405802,
-  "publicado_em": "2026-08-20T20:02:05Z",
-  "notas": "1.5.23 - a causa raiz do RPA de boletos. A seta de paginacao sem escopo casava com a seta do filtro de periodo e AVANCAVA O MES: o robo lia setembro achando que era a pagina 2 de agosto. Agora o seletor e' ancorado na regiao de paginacao, o rotulo do periodo e' reconferido depois de qualquer clique, e grid sem paginacao passa a ser pagina unica (a Procacao, com 3 vendas, volta a rodar). Junto: motor unico de nomenclatura (o anexo do e-mail e o arquivo na pasta deixam de ter nomes diferentes), a data de emissao que faz o {data} do template resolver, e o cadastro vazio deixa de contar como cadastro.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.25/CentralAutomacoes_v1.exe",
+  "sha256": "29972c31e93dedd4e547e55c23bd01965f2a46bb260f64b4497b2f28eb63e1e0",
+  "tamanho": 111001405,
+  "publicado_em": "2026-08-24T20:00:03Z",
+  "notas": "1.5.25 - marco de BOLETOS, o primeiro binario com as correcoes das sessoes 2 e 3 dentro. (1) Extracao que nao consegue percorrer a grid inteira deixa de entregar ZERO: baixa os boletos que identificou, conclui como PARCIAL (vermelho no card, PARCIAL no historico, nunca 'concluido') e NOMEIA as vendas que ficaram para tras. (2) Rodape que diz '1 - 10 de 31' nao vira mais 'ultima pagina': ausencia de controle de paginacao reconhecido passa a ser erro nomeado. (3) O controle de proxima pagina da Conta Azul e' a palavra 'Proximo' com os numeros ao lado, e agora e' procurado por TEXTO - antes so' se procurava icone. Junto: a identidade da linha na grid sem numero de venda, e a tela de Clientes que grava na competencia que a execucao le.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
