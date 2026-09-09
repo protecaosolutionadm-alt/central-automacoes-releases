@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.25",
+  "versao": "1.5.26",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.25/CentralAutomacoes_v1.exe",
-  "sha256": "29972c31e93dedd4e547e55c23bd01965f2a46bb260f64b4497b2f28eb63e1e0",
-  "tamanho": 111001405,
-  "publicado_em": "2026-08-24T20:00:03Z",
-  "notas": "1.5.25 - marco de BOLETOS, o primeiro binario com as correcoes das sessoes 2 e 3 dentro. (1) Extracao que nao consegue percorrer a grid inteira deixa de entregar ZERO: baixa os boletos que identificou, conclui como PARCIAL (vermelho no card, PARCIAL no historico, nunca 'concluido') e NOMEIA as vendas que ficaram para tras. (2) Rodape que diz '1 - 10 de 31' nao vira mais 'ultima pagina': ausencia de controle de paginacao reconhecido passa a ser erro nomeado. (3) O controle de proxima pagina da Conta Azul e' a palavra 'Proximo' com os numeros ao lado, e agora e' procurado por TEXTO - antes so' se procurava icone. Junto: a identidade da linha na grid sem numero de venda, e a tela de Clientes que grava na competencia que a execucao le.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.26/CentralAutomacoes_v1.exe",
+  "sha256": "3b9c6e362151ed4db235478889bbaa342e47ec108ff921ce3bfbcda2656e955b",
+  "tamanho": 111895939,
+  "publicado_em": "2026-09-09T15:45:45Z",
+  "notas": "1.5.26 - SET/26 destravado. O Conta Azul passou a exportar DANFSe (padrao nacional) em 01/09/2026 e a 1.5.25 recusava as notas inteiras: nenhuma NF de setembro foi renomeada ou lancada. Medido contra os 38 PDFs reais de 09 SET 26: 38 lidas, 0 em FORMATO DESCONHECIDO, 0 sem numero legivel; 31 seguem o fluxo (14 com arredondamento de 1 centavo reportado) e 7 sao RECUSADAS de proposito por deducao dupla de INSS (1211, 1212, 1225, 1230, 1232, 1234, 1237), com os dois valores nomeados. Junto: a quebra de pagina das previas, o conjunto-ouro de AGO/26 e a terceira fonte dos apontamentos - a planilha ja era lida, na celula errada desde JUL/26.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
