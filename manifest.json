@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.27",
+  "versao": "1.5.28",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.27/CentralAutomacoes_v1.exe",
-  "sha256": "55736a29e0fa84ced5d96bcd5b06c168c470df04cda05774017cc00ed0aa69e4",
-  "tamanho": 111931160,
-  "publicado_em": "2026-09-09T19:23:37Z",
-  "notas": "1.5.27 - a interface volta ao normal. A 1.5.26 servia o proprio CSS (Tailwind, Font Awesome, Poppins/Outfit) por uma rota que exigia sessao, e a tela de login os pede antes de existir sessao: as tres folhas tomavam 401 no boot e nunca eram repedidas, entao o app rodava a sessao inteira sem icone e com fonte do sistema. Junto, o scheduler de auto-update passa a subir no binario: da 1.5.24 ate a 1.5.26 a checagem periodica so rodava em modo dev, e por isso nenhuma maquina era avisada de versao nova.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.28/CentralAutomacoes_v1.exe",
+  "sha256": "48bbc69396031b7ad8426a738d931d0977d5122a4788b6ba188eeb668adcf78e",
+  "tamanho": 112083382,
+  "publicado_em": "2026-09-11T20:20:02Z",
+  "notas": "1.5.28: envio em lote de NF pela tela volta a funcionar (processar_boleto); guarda de envio incompleto recusa nomeando — nota sem boleto nao vai ao cliente; pre-visualizacao com valor/erro/aviso/fonte (9 colunas); coluna nova da planilha nasce com cabecalho (mes atrasado passa no portao); porta ocupada recusa em vez de cair; CA_NFS_ZIP.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
