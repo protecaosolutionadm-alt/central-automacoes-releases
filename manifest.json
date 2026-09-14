@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.28",
+  "versao": "1.5.29",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.28/CentralAutomacoes_v1.exe",
-  "sha256": "48bbc69396031b7ad8426a738d931d0977d5122a4788b6ba188eeb668adcf78e",
-  "tamanho": 112083382,
-  "publicado_em": "2026-09-11T20:20:02Z",
-  "notas": "1.5.28: envio em lote de NF pela tela volta a funcionar (processar_boleto); guarda de envio incompleto recusa nomeando — nota sem boleto nao vai ao cliente; pre-visualizacao com valor/erro/aviso/fonte (9 colunas); coluna nova da planilha nasce com cabecalho (mes atrasado passa no portao); porta ocupada recusa em vez de cair; CA_NFS_ZIP.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.29/CentralAutomacoes_v1.exe",
+  "sha256": "f91ce979482b5931862862fb8ffb002f26343c1ddc7539d66713a8b99275bd68",
+  "tamanho": 112149333,
+  "publicado_em": "2026-09-14T15:58:19Z",
+  "notas": "1.5.29: o RPA de boletos sobrevive a queda do Chrome (vendas nao viram SEM BOLETO: o lote para com erro nomeado e devolve PARCIAL); o RPA registra a memoria de partida; os dois RPAs gravam log proprio em data/logs/rpa_*.log.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
