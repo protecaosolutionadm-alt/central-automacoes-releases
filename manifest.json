@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.29",
+  "versao": "1.5.30",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.29/CentralAutomacoes_v1.exe",
-  "sha256": "f91ce979482b5931862862fb8ffb002f26343c1ddc7539d66713a8b99275bd68",
-  "tamanho": 112149333,
-  "publicado_em": "2026-09-14T15:58:19Z",
-  "notas": "1.5.29: o RPA de boletos sobrevive a queda do Chrome (vendas nao viram SEM BOLETO: o lote para com erro nomeado e devolve PARCIAL); o RPA registra a memoria de partida; os dois RPAs gravam log proprio em data/logs/rpa_*.log.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.30/CentralAutomacoes_v1.exe",
+  "sha256": "39a32f87b6425fc2399aa07813efbd2cfbf9319fa2a2b7c4f0ea43e26c89e04d",
+  "tamanho": 112160344,
+  "publicado_em": "2026-09-16T14:10:26Z",
+  "notas": "1.5.30: aviso de login diz a verdade sobre o SMTP (nomeia a conta configurada); Enviar e-mail de teste sai pela conta de quem clica; e-mails assinam pelo usuario logado, nao mais pelo master; diretorio de assinaturas resolvido por chamada.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
