@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.30",
+  "versao": "1.5.31",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.30/CentralAutomacoes_v1.exe",
-  "sha256": "39a32f87b6425fc2399aa07813efbd2cfbf9319fa2a2b7c4f0ea43e26c89e04d",
-  "tamanho": 112160344,
-  "publicado_em": "2026-09-16T14:10:26Z",
-  "notas": "1.5.30: aviso de login diz a verdade sobre o SMTP (nomeia a conta configurada); Enviar e-mail de teste sai pela conta de quem clica; e-mails assinam pelo usuario logado, nao mais pelo master; diretorio de assinaturas resolvido por chamada.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.31/CentralAutomacoes_v1.exe",
+  "sha256": "374dc63814a4e435a99aef9193df838e75393015e6dc6d10ac0e23fee6e75160",
+  "tamanho": 112134520,
+  "publicado_em": "2026-09-17T18:59:15Z",
+  "notas": "Instalador proprio: CentralAutomacoes-Setup-1.5.31.exe instala por usuario, cria atalho e aparece em Aplicativos instalados. O app nao muda de comportamento.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
