@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.33",
+  "versao": "1.5.34",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.33/CentralAutomacoes_v1.exe",
-  "sha256": "9c866662fe0f2540b391789707ff08d7babdbb04481fcaf4bd4cd7af114995e5",
-  "tamanho": 112452629,
-  "publicado_em": "2026-09-23T17:16:09Z",
-  "notas": "Canal pausado (PROMPT AM): a 1.5.33 foi recusada pelo Windows na maquina A. Nenhuma instalacao baixa ate a versao assinada (AN).",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.34/CentralAutomacoes_v1.exe",
+  "sha256": "f18481b36746697e8c1e9718ca326d68ceb435e75560ee23fe526e1202270912",
+  "tamanho": 112458936,
+  "publicado_em": "2026-09-23T19:55:01Z",
+  "notas": "Canal pausado (PROMPT AN): primeira versao assinada pela Solution (certificado 209F2D9A...A71D). A maquina A recebe pelo setup do kit; o canal abre com a 1.5.35.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 0
 }
