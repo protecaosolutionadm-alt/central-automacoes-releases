@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.31",
+  "versao": "1.5.32",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.31/CentralAutomacoes_v1.exe",
-  "sha256": "374dc63814a4e435a99aef9193df838e75393015e6dc6d10ac0e23fee6e75160",
-  "tamanho": 112134520,
-  "publicado_em": "2026-09-17T18:59:15Z",
-  "notas": "Instalador proprio: CentralAutomacoes-Setup-1.5.31.exe instala por usuario, cria atalho e aparece em Aplicativos instalados. O app nao muda de comportamento.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.32/CentralAutomacoes_v1.exe",
+  "sha256": "fbf61a10a94d566cabf9eb5e0ae277d7f4120a8bb7d0501dd210d68e2b7caa92",
+  "tamanho": 112452079,
+  "publicado_em": "2026-09-23T15:18:22Z",
+  "notas": "Maquina nova abre o programa na primeira vez (a verificacao de inicio nao derruba mais a instalacao sem dono). Troca de versao passa a funcionar sem reverter.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
