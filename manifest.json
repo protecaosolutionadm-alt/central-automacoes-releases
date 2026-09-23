@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.32",
+  "versao": "1.5.33",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.32/CentralAutomacoes_v1.exe",
-  "sha256": "fbf61a10a94d566cabf9eb5e0ae277d7f4120a8bb7d0501dd210d68e2b7caa92",
-  "tamanho": 112452079,
-  "publicado_em": "2026-09-23T15:18:22Z",
-  "notas": "Maquina nova abre o programa na primeira vez (a verificacao de inicio nao derruba mais a instalacao sem dono). Troca de versao passa a funcionar sem reverter.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.33/CentralAutomacoes_v1.exe",
+  "sha256": "9c866662fe0f2540b391789707ff08d7babdbb04481fcaf4bd4cd7af114995e5",
+  "tamanho": 112452629,
+  "publicado_em": "2026-09-23T16:20:05Z",
+  "notas": "Versao de conferencia: igual a 1.5.32, so' o numero mudou. Prova de que a atualizacao chega sozinha.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 100
 }
