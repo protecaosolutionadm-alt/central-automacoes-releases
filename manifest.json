@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.34",
+  "versao": "1.5.35",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.34/CentralAutomacoes_v1.exe",
-  "sha256": "f18481b36746697e8c1e9718ca326d68ceb435e75560ee23fe526e1202270912",
-  "tamanho": 112458936,
-  "publicado_em": "2026-09-23T19:55:01Z",
-  "notas": "Canal pausado (PROMPT AN): primeira versao assinada pela Solution (certificado 209F2D9A...A71D). A maquina A recebe pelo setup do kit; o canal abre com a 1.5.35.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.35/CentralAutomacoes_v1.exe",
+  "sha256": "49452ad279f3af199624666a2df74811337f8d90e541d1a42cedea158882d0cc",
+  "tamanho": 112458424,
+  "publicado_em": "2026-09-24T17:36:52Z",
+  "notas": "Canal pausado (PROMPT AO): o setup 1.5.35 prepara a maquina com consentimento (politica da Solution imposta, SAC tratado). Primeira execucao real na maquina A.",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 0
 }
