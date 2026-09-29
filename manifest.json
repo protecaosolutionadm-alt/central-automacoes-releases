@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.37",
+  "versao": "1.5.38",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.37/CentralAutomacoes_v1.exe",
-  "sha256": "77431deab1c309bd2874f7ce6a5a34e8fbd9aaf8d9c9289d6aa5ea2988af942b",
-  "tamanho": 112460920,
-  "publicado_em": "2026-09-28T13:17:26Z",
-  "notas": "A tela de login nao mostra mais dado de e-mail; o aviso de SMTP aparece so depois do login, so para administrador, com o caminho para configurar.",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.38/CentralAutomacoes_v1.exe",
+  "sha256": "03118d9e6871cfc40f21feca7773a41010f5f06c183815bb1913f8e16cb8ea15",
+  "tamanho": 112470512,
+  "publicado_em": "2026-09-29T21:09:58Z",
+  "notas": "Uma conta de envio por caixa: o codigo de verificacao sai pela conta da mesma caixa que ja envia; aviso de e-mail so com envio que falhou (PROMPT AS).",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 0
 }
