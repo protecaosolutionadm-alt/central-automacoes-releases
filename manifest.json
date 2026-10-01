@@ -1,11 +1,11 @@
 {
-  "versao": "1.5.38",
+  "versao": "1.5.39",
   "canal": "stable",
-  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.38/CentralAutomacoes_v1.exe",
-  "sha256": "03118d9e6871cfc40f21feca7773a41010f5f06c183815bb1913f8e16cb8ea15",
-  "tamanho": 112470512,
-  "publicado_em": "2026-09-29T21:09:58Z",
-  "notas": "Uma conta de envio por caixa: o codigo de verificacao sai pela conta da mesma caixa que ja envia; aviso de e-mail so com envio que falhou (PROMPT AS).",
+  "url": "https://github.com/protecaosolutionadm-alt/central-automacoes-releases/releases/download/v1.5.39/CentralAutomacoes_v1.exe",
+  "sha256": "a58621ce179c90f1e4ae8ed698c44a18f49c16b68baf70ae785db1684b02ba79",
+  "tamanho": 112490304,
+  "publicado_em": "2026-10-01T21:12:46Z",
+  "notas": "O setup extrai o mesmo programa interno da 1.5.36, que abriu com o Controle Inteligente de Aplicativos ligado (PROMPT AQ, A1); leva uma conta de envio (AS) e a competencia da NF pela nota (AT).",
   "min_versao_suportada": "0.0.0",
   "rollout_percent": 0
 }
